@@ -1,0 +1,2 @@
+https://github.com/andreisaulea/BankApplication
+https://github.com/davidalin9182/RentingWebsite_database.git

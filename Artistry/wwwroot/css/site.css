@@ -1,0 +1,86 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url(../img/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover
+}
+navbar {
+    background-color: rgb(90, 108, 138);
+  
+}
+
+.HomeContainer {
+    margin-top: 3%;
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'text text text buttons';
+        
+    background-color: rgba(0,0,0,0.6);
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.welcome {
+    grid-area:header;
+    color: darkgray;
+    font-size: 60px;
+    margin-top: 3%;
+    font-family: Font;
+    text-align: center
+}
+.IntroText {
+    grid-area: text;
+    display: inline-block;
+    color: darkgray;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-align: left;
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.homeBtn {
+    height: 40px;
+    width: 200px;
+    margin-bottom: 5%;
+    background-color: rgb(90, 108, 138,0.8);
+    border-bottom:2px solid rgba(76, 255, 0,0);
+}
+
+    .homeBtn:hover {
+        border-bottom: 2px solid rgba(76, 255, 0,1);
+    }
+
+.buttonsArea {
+
+    grid-area:buttons;
+    margin-top:20%;
+    margin-left:10%
+
+}
+
+@font-face {
+    font-family: Font;
+    src: url(../fonts/OleoScript.ttf);
+
+}
